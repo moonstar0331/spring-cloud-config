@@ -1,6 +1,8 @@
-token:
-  expiration_time: 864000000
-  secret: my_token_default
+
+jwt:
+  header: Authorization
+  secret: Z29vcm10aG9uLWRvY2tlci1wcm9qZWN0LWF1dGgtc2VydmljZS1qd3QtYXV0aG9yaXphdGlvbi1rZXktZ29vcm10aG9kLWRvY2tlci1wcm9qZWN0LWF1dGgtc2VydmljZQo=
+  token-validity-in-seconds: 86400
 
 gateway:
   ip: 172.30.1.26
